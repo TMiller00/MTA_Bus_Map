@@ -1,4 +1,4 @@
-const baseURL = (process.env.PORT || 'https://localhost:5000/')
+const baseURL = process.env.PORT
 
 export const vehicleService = () => {
   return fetch(baseURL)
