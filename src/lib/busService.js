@@ -1,4 +1,4 @@
-const baseURL = 'http://localhost:5000/'
+const baseURL = 'https://localhost:5000/'
 
 export const vehicleService = () => {
   return fetch(baseURL)
