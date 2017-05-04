@@ -28,8 +28,8 @@ class App extends Component {
       <div className='App'>
         <Map className='Map' animate={true} center={[40.756410, -73.845301]} zoom={12}>
           <TileLayer
-            url='https://{s}.tile.osm.org/{z}/{x}/{y}.png'
-            attribution='&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
+            url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
+            attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
           />
           <BusLocation time={this.state.curTime} buses={this.state.buses} />
         </Map>
