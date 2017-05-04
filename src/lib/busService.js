@@ -1,4 +1,5 @@
-const baseURL = process.env.PORT
+// const baseURL = 'https://localhost:5000/'
+const baseURL = 'https://bustime.mta.info/api/siri/vehicle-monitoring.json?key=' + process.env.MTA_KEY + '&version=2&VehicleMonitoringDetailLevel=calls&MaximumNumberOfCallsOnwards=3';
 
 export const vehicleService = () => {
   return fetch(baseURL)
