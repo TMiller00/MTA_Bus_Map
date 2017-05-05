@@ -4,7 +4,7 @@
   "description": "",
   "engines": {
     "node": "6.9.x"
-  },  
+  },
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,5 +13,10 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.15.2",
+    "request": "^2.81.0"
+  }
 }
