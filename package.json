@@ -5,11 +5,9 @@
   "engines": {
     "node": "6.9.x"
   },
-  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "install": "cd client && npm run build && cd .."
+    "heroku-postbuild": "cd client/ && npm install --only=dev && npm install && npm run build"
   },
   "keywords": [],
   "author": "",
