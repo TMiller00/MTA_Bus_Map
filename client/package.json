@@ -2,14 +2,15 @@
   "name": "mta-bus-map",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "dotenv": "^4.0.0",
-    "leaflet": "^1.0.3",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "react-leaflet": "^1.1.4"
+  "engines": {
+    "node": "6.9.2"
   },
-  "proxy": "http://localhost:5000",
+  "dependencies": {
+    "leaflet": "1.0.3",
+    "react": "15.4.2",
+    "react-dom": "15.4.2",
+    "react-leaflet": "1.1.4"
+  },
   "devDependencies": {
     "react-scripts": "0.9.5"
   },
