@@ -1,0 +1,21 @@
+.Map {
+  height: 100VH;
+  width: 100VW;
+  margin: 0 auto;
+}
+
+.Refresh {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  z-index: 400;
+}
+
+.BusForm {
+  position: absolute;
+  top: 13px;
+  left: 100px;
+  z-index: 400;
+  height: 20px;
+  width: 200px;
+}
